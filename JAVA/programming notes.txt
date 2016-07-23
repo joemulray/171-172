@@ -1,0 +1,507 @@
+e import java.util.Scanner;
+Scanner keyboard = new Scanner(System.in);
+keyboard.next
+
+nextLine
+nextInt
+nextDouble
+
+*************************************************
+import javax.swing.JOptionPane
+(Displays message box)
+
+JOptionPane.showMessageDialog(null, "      ");
+variable = JoptionPane.showInputDialog("             ");
+*********************************************************
+/////////Everything that is typed in is stored as a string/////////////
+
+Integer.parseInt(variable);
+Double.parseDouble(variable)
+
+System.exit(0);
+ending program
+
+***********************************************
+Chapter 3: Class
+
+can store data.
+can perform operations.
+
+data stored in an object called attributes or feilds.
+Operations an object can perform: called methods
+
+
+classes vs objects:
+Class name should reflect what it is and or doing:
+
+Class		Rectangle
+Attributes		length width
+Methods		
+
+
+AcessModifier ReturnType
+MethodName (Parameters)
+{
+//Method body.
+}
+
+public int/double/string _______________
+		           getLength()
+		           setLength()
+		           void
+		           getWidth()
+		           getArea()
+
+
+
++ public
+- private
+# protected
+
+
+
+
+
+
+
+AcessModifier ReturnType MethodName
+		(ParaType Paraname, ParaType Paraname)
+
+Employee emp1 = new Employee
+Employess emp1 = new Employee('
+******************************************************
+IF STATEMENTS:
+if (coldoutside)
+{
+	wearCoat();
+	wearGloves();
+}
+
+
+java you do not need to indent
+
+no semi colom after if statement or will assume everything is true.
+
+///////elif is the same thing as else if///////
+
+*****************************************************
+name.equalsIgnoreCase(name2)
+
+
+name.equals(name2))
+
+name.compareTo(str)
+returns zero if a=b
+postive if a>b
+negative a<b
+
+names.compareToIgnoreCase(name2)
+
+
+switch (testExpression)
+{
+case "variable":
+
+break;
+*************************************************************
+import java.text.DecimalFormat;
+
+DecimalFormat x = new DecimalFormat ("#0.00")
+If formatting into money use
+DecimalFormat (variable) = new DecimalFormat ("$#,##0.00")
+
+for percent 
+DecimalFormat varible = DecimalFormat ("#0%")
+(make sure number is in decimal or will be wrong)
+System.out.print( varialble.format(number))
+
+
+***********************************************************
+Random Class
+
+import java.util.Random;
+
+Random variable = new Random();
+
+
+nextDouble ( between 0 and 1 )
+nextInt (between -2 billion to +2 billion)
+nextFloat( between 0 and 1)
+nextInt (int n) ( will be between 0 and n)
+
+
+*************************************************************
+for(initizationation; test; update)
+
+for( number=1; number<=10; number++)
+
+
+************************************************************
+Overloading method
+
+same name arguments are different
+
+method signature (name,tyoe of parameter and order of parameters)
+Process known as binding.
+
+public static double getWeeklypay(double yearly salary)
+
+public static double getWeeklypay(int hours, double payRate)
+
+*************************************************************
+Passing Objects in as Arguments
+
+ex.
+public static void displayRectangle(Rectangle r)
+
+*************************************************
+
+toString method returns information about the class
+toString does not print returns statement that can be printed
+
+variable.toString()
+
+File file = new file( "ccc", 9.63)
+System.out.println(file.toString());
+
+public String toString()
+{
+
+***************************************************
+
+boolean equals(Stock object2)
+
+aggregation 
+one class as a reference in another class
+
+************************************************
+
+Aggregation
+
+when an instance of a class is a feild in another class.
+
+
+
+
+***********************************************
+this reference a name that an object can use to refer to itself
+
+public void setFeet(int feet)
+
+this.feet = feet;
+
+gets rid of shawdowing
+
+
+instead of public void setFeet(int f)
+feet = f;
+******************************************
+
+enum typename{one or more enum constants}
+
+enum Day { Sunday, Monday Tuesday, Wenesday, Thursday,}
+
+Day WorkDay;
+
+
+Day WorkDay = Day.Wednesday
+
+
+***************************************
+
+toString returns name of calling constant
+ordinal returns zero based position
+equals accepts an object and returns true
+compareTo
+
+
+
+Garbage collection
+public void finalize()
+
+
+********************************************
+
+arrays
+
+can store any type of data but onlu one type of data at a time.
+
+int [] numbers;
+
+starts at zero so int [6] has 7 indexes
+
+[] is an argument
+
+numbers = new int [6];
+final int ARRAY_SIZE [6]
+
+double[] temperatures = new double[24]
+
+
+
+****************************************************
+showArray(numbers)
+public static void showArray(int[] array)
+
+
+signature name(int)
+
+public double myMethod(int num)
+
+signature name is myMethod(int)
+
+static methods only have one object.
+***********************************************
+public static double[] getArray()
+{
+double[] array =  { 12.,23,354,3,5,5,5,5,32,}
+return array
+}
+returns memory location
+
+names[i].length();
+
+object array
+StudentInfo [] info = new StudentInfo[5];
+info [x] = new StudentInfo(ID, GPA);
+*********************************************
+Searching an array
+
+Sequential search algorithem.
+organize the array
+Sorting an array  before doing a  sequential search.
+
+selection sort.
+smallest value in array is locatied and moved to element 0.
+continued til all elements have been placed in proper order.
+
+ArrayTools.selectionSort(variable name)
+
+Binary search
+starts wit the emelmind in the middle of the array
+middle is either greater than or less than desiered value
+greater than desrired value search in first half of array
+less than desired value search in second half of array
+repeat as needed while adjusting start and end points of the search.
+
+middle = (first+last)/2
+if list[middle]<key then the first = middle +1
+if list[middle]>key then the first = middle -1
+if list[middle]== key then found =true
+if first> last then the key is not in the list
+
+middle = (last + first)/2 
+
+double [] [] scores = new double [3]     [4]
+		               rows   columns
+for(int row = 0; row<3; row ++)
+	                  ^ number of rows
+
+for (int col =0 ; col<4; col++)
+	               ^ number of colummns
+int [] [] numbers = { {1,2,3} , {4,5,6} ,{7,8,9} }
+
+int [] [] ragged = new int [4] [] ;
+ragged [0] = new int [2];
+ragged [1] = new int [1];
+ragged [2] = new int [3];
+ragged [3] = new int [5];
+
+
+import java.util.ArrayList;
+ArrayList<String> nameList = new ArrayList<String>();
+nameList.add("James");
+nameList.size(); //returns number of elements.
+nameList.get(0);
+nameList.remove(1);
+nameList.add(1,"Mary")
+nameList.set(1, "Becky" );
+
+for(String str: nameList)
+	System.out.print(str)
+
+ArrayList<String> nameList = new ArrayList<String>(100);
+
+*******************************************************
+Wrapper Classes
+
+java.lang 
+no import statement required.
+
+boolean isDigit(char ch)
+boolean isLetter(char ch)
+Boolean isLetterOrDigit(char ch)
+8 primitive data types.
+Called"primitive" because they are not created from classes
+Wrapper classes for all primitive data types.
+Wrapper class: class that is "wrapped around" a primitive data type.
+Part of java.lang - no import statement
+
+0= Integer.parseInt(x);
+
+Allow you to create objects to represent a primitive.
+
+Immutable: once you create an object, you cannot change the object's value.
+To get value stored in an object must call a method.
+Wrapper classes provide static methodes that are very useful.
+
+Character Testing and Conversion with the Character Class
+
+boolean isDigit(char ch)
+boolean isLetter(char ch)
+boolean isLetterorDigit(char ch)
+boolean isLowerCase(chat ch)
+boolean isUpperCase(char ch)
+boolean isSpaceChar(char ch)
+
+if(Character.isDigit(userAnswer))
+
+char toLowerCase(char ch) - returns the lowercase equivalent of the argument passed to ch.
+chat toUpperCase(char ch) - returns the uppercase equivalent of the argument passed to ch.
+
+SubStrings
+String class provides several methods that search for a string inside of a string.
+
+
+SubString: string that is part of another string.
+Some substring searching methods provided by the String class:
+boolean startsWith(String str)
+boolean endsWith(String str)
+
+Searching Strings
+startsWith method determines whether a string begins with a specified substring.
+startsWith - case sensitive comparison.
+
+
+******************************************
+
+String Builder
+insert characters delete characters change specific characters
+
+String Tokenizer
+allows to break a string down into its compontents: called tokens
+
+import java.util.StringTokenizer
+
+StringTokenizer(String str)
+	(whiteSpace)
+StringTokenizer(String str, String delimiters)
+
+StringTokenizer - strTokenizer - new StringTokenizer("2 3 4 5 6")
+
+countTokens
+hasMoreTokens
+nextToken
+
+while(strTokenizer.hsaMoreTokenizer()
+S.O.P( strTokenizer.nextToken())
+
+str.split("")
+String [] tokens = str.split(" ");
+
+Integer.toString(i)
+Double.toString(d)
+
+toBinaryString,toHexString, toOctalString,
+
+MIN_VALUE
+MAX_VALUE
+
+inheritance
+real life objects typically speclialized versions of more general objects.
+
+isa relationship 
+relationship between superclass and inheritied class: "is a "relationship 
+
+superclass: generall class
+subclass: specialized class
+
+public class finalExam extends GradedActivity.
+
+
+
+
+shape
+double area
+setArea(a: double) 
+getArea()
+
+super(); = constructor
+if paremeterized  xonstructor is defined in super class
+
+subclass may have a method with same signature as superclass method
+subclass methid overrides superclass method
+known as method overriding
+
+super.setScore(rawScore*percentage);
+
+overriding have same signature
+overloading can occur in same class
+overriding cannot occur in the same class
+
+public final void message()
+final prevent overring of a superclass method in a subclass
+
+
+a superclass can aslo be derived from another class.
+
+GradedActivity exam;
+exam = new GradedActivity();
+
+public abstract Student()
+
+interface is similar to abstract class that has astract methods.
+
+is to specify behavior for other classes.
+
+interface looks similiar to a class.
+public interface Student()
+
+valueOf() turns into string();
+
+n-1 passes in selection sort;
+
+overlaoding vs overridding
+methods are the same signatures are different (overloading);
+overriding occurs when the signatures are the same cannot happen in the same class
+only happens with subclasses and superclasses. 
+sub.myM();
+super.myM();
+
+When processing the data in a two-dimensional array, each element has two subscripts: 
+-one for its row 
+-one for its column
+row first/column second
+
+Accessing Two-Dimensional Array elements
+Programs that process two-Diminsional arrays can do so with nested loops.
+
+To fill the scores array:
+for(int row = 0; row<3; row++)
+{
+  for (int col=0; col <4; col++)
+  {
+    System.out.print("Enter a score: ");
+    scores[row][col] = keyboard.nextDouble();
+  }
+}
+
+for(int row = 0; row <3; row++)
+{
+ for(int col = 0; col<3; col++)
+  {
+   System.out.println(scores[row][col])
+  }
+}
+
+handling exceptions
+exception handler;
+
+try
+{
+for( )
+{
+}
+catch(ArrayIndexOutOfBoundsException e)
+
+system.exit(0) to end program;

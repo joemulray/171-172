@@ -1,0 +1,11 @@
+Scanner keyboard = new Scanner(System.in)
+
+nextLine
+nextInt
+nextDouble
+
+input= keyboard.nextLine(); // Get a line of input.
+
+answer= input.charAt(0); // Get the first character.
+
+keystrokes: sotred in area of memorory: keyboard buffer.
