@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADC99BD1D519C41000957A7 /* testDriver.cp in Sources */ = {isa = PBXBuildFile; fileRef = FADC99BC1D519C41000957A7 /* testDriver.cp */; };
+		FADC99BF1D519C4E000957A7 /* DULine.cp in Sources */ = {isa = PBXBuildFile; fileRef = FADC99BE1D519C4E000957A7 /* DULine.cp */; };
+		FADC99C11D519C55000957A7 /* DUPoint.cp in Sources */ = {isa = PBXBuildFile; fileRef = FADC99C01D519C55000957A7 /* DUPoint.cp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FADC99B01D519C1F000957A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FADC99B21D519C1F000957A7 /* Pre Lab 7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pre Lab 7"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADC99BC1D519C41000957A7 /* testDriver.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testDriver.cp; path = ../../testDriver.cp; sourceTree = "<group>"; };
+		FADC99BE1D519C4E000957A7 /* DULine.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DULine.cp; path = ../../DULine.cp; sourceTree = "<group>"; };
+		FADC99C01D519C55000957A7 /* DUPoint.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DUPoint.cp; path = ../../DUPoint.cp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADC99AF1D519C1F000957A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADC99A91D519C1F000957A7 = {
+			isa = PBXGroup;
+			children = (
+				FADC99B41D519C1F000957A7 /* Pre Lab 7 */,
+				FADC99B31D519C1F000957A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADC99B31D519C1F000957A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADC99B21D519C1F000957A7 /* Pre Lab 7 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADC99B41D519C1F000957A7 /* Pre Lab 7 */ = {
+			isa = PBXGroup;
+			children = (
+				FADC99C01D519C55000957A7 /* DUPoint.cp */,
+				FADC99BE1D519C4E000957A7 /* DULine.cp */,
+				FADC99BC1D519C41000957A7 /* testDriver.cp */,
+			);
+			path = "Pre Lab 7";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADC99B11D519C1F000957A7 /* Pre Lab 7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADC99B91D519C1F000957A7 /* Build configuration list for PBXNativeTarget "Pre Lab 7" */;
+			buildPhases = (
+				FADC99AE1D519C1F000957A7 /* Sources */,
+				FADC99AF1D519C1F000957A7 /* Frameworks */,
+				FADC99B01D519C1F000957A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pre Lab 7";
+			productName = "Pre Lab 7";
+			productReference = FADC99B21D519C1F000957A7 /* Pre Lab 7 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADC99AA1D519C1F000957A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joseph Mulray";
+				TargetAttributes = {
+					FADC99B11D519C1F000957A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FADC99AD1D519C1F000957A7 /* Build configuration list for PBXProject "Pre Lab 7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FADC99A91D519C1F000957A7;
+			productRefGroup = FADC99B31D519C1F000957A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADC99B11D519C1F000957A7 /* Pre Lab 7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADC99AE1D519C1F000957A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADC99C11D519C55000957A7 /* DUPoint.cp in Sources */,
+				FADC99BD1D519C41000957A7 /* testDriver.cp in Sources */,
+				FADC99BF1D519C4E000957A7 /* DULine.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FADC99B71D519C1F000957A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FADC99B81D519C1F000957A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FADC99BA1D519C1F000957A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FADC99BB1D519C1F000957A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADC99AD1D519C1F000957A7 /* Build configuration list for PBXProject "Pre Lab 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC99B71D519C1F000957A7 /* Debug */,
+				FADC99B81D519C1F000957A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADC99B91D519C1F000957A7 /* Build configuration list for PBXNativeTarget "Pre Lab 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC99BA1D519C1F000957A7 /* Debug */,
+				FADC99BB1D519C1F000957A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADC99AA1D519C1F000957A7 /* Project object */;
+}
