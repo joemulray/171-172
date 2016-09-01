@@ -28,7 +28,7 @@ secretCode=input("Please enter your secret code: ")
 
 
 
-if secretCode==('chestnut') or (secretCode=='hill') or (secretCode=='computer'):
+if secretCode==('science') or (secretCode=='infomatics') or (secretCode=='computer'):
     answer=int(input("What special holiday do we celebrate on December 25?: "))
     correctAnswer=checkQuestion(answer)
     if correctAnswer==1:

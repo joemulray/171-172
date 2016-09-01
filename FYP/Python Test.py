@@ -45,7 +45,7 @@ secretCode=input("Enter the secret code: ")
 
 
 #Testing Secret Code
-if secretCode==('chestnut') or (secretCode=='hill') or (secretCode=='computer'):
+if secretCode==('computing') or (secretCode=='hill') or (secretCode=='computer'):
     answer=(input("What special holiday do we celebrate on December 25?: "))
     
     correctAnswer=checkQuestion(answer)

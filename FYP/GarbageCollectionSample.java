@@ -5,8 +5,8 @@ public class GarbageCollectionSample {
 
     public static void main(String [] args)
     {
-    	String name1="Chestnut";
-    	String name2 = "Hill";
+    	String name1="Joseph";
+    	String name2 = "Mulray";
     	System.out.println(name1);
     	System.out.println(name2);
 
