@@ -11,20 +11,19 @@ public class starPattern {
 
     public static void main(String[] args) {
 
-		method printLn(String);
-    	System.out.printLn("   *");
+    	System.out.println("   *");
 
-    	System.out.printLn("  ***");
+    	System.out.println("  ***");
 
-    	System.out.printLn(" *****");
+    	System.out.println(" *****");
 
-    	System.out.printLn("*******");
+    	System.out.println("*******");
 
-    	System.out.printLn(" ******");
+    	System.out.println(" ******");
 
-    	System.out.printLn("  ***");
+    	System.out.println("  ***");
 
-    	System.out.printLn("   *");
+    	System.out.println("   *");
 
     }
 }
