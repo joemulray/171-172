@@ -1,2 +1,0 @@
-"\\\\psf\\Home\\Documents\\JCreator LE\\MyProjects\\StatsDemo\\src\\SoftwareEngineering.java"
-"\\\\psf\\Home\\Documents\\JCreator LE\\MyProjects\\StatsDemo\\src\\StatsDemo.java"
